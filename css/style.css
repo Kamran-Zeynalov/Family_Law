@@ -1,0 +1,41 @@
+.back{
+    height: 600px;
+   background-image: url(https://uploads-ssl.webflow.com/62cec6d8155fca43b91e426d/62cecfcbc55dc46988e7a730_Best-Family-Lawyers-1024x569.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.about{
+    margin-top: 100px;
+    position: relative;
+    left: 130px;
+    width: 75%;
+    
+}
+.about h1{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.about p{
+    color: rgb(82, 81, 81);
+font-size: 17px;
+font-family: sans-serif;
+line-height: 30px;
+}
+.about p a{
+    color: rgb(82, 81, 81);
+}
+.about p b{
+    color: black;
+}
+.iframe-txt {
+    display: grid;
+    /* align-items: center;  */
+    grid-template-columns: 50% 50% 100%;
+    column-gap: 50px;
+   }
+   
+   iframe {
+    margin: 20px 30px;
+     max-width: 100%;
+     max-height:100%;
+   }
